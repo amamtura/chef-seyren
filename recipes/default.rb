@@ -12,6 +12,7 @@ application "seyren" do
   owner "www-data"
   group "www-data"
 
+  shallow_clone false
   repository "https://github.com/scobal/seyren.git"
   revision "23983ce38e98ba3cb89c1dcacc3f2bd42db553db"
 end
